@@ -1,7 +1,7 @@
 # Prolibu-Schemas
 Schema field reference
 
-## Field names
+## Field Names
 camelCase example:
 - vitrinaDeCierre
 - facturaNombreLead
