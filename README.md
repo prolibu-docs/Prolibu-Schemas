@@ -1,6 +1,11 @@
 # Prolibu-Schemas
 Schema field reference
 
+## Naming
+camelCase example:
+- vitrinaDeCierre
+- facturaNombreLead
+
 ## Fields Attributes
 - type (string, datetime, longtext, number, float)
 - model 
