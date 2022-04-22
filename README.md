@@ -7,7 +7,8 @@ camelCase example:
 - facturaNombreLead
 
 ## Fields Attributes
-- type (string, datetime, longtext, number, float, enum)
+- type (string, datetime, longtext, number, float)
+- enum
 - model 
 - defaultsTo
 - required
