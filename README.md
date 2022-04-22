@@ -3,8 +3,9 @@ Schema field reference
 
 ## Fields Attributes
 ---
+- type (string, datetime, longtext, number, float)
 - model 
-- type (string, datetime, longtext)
+- defaultsTo
 - required
 - description
 
@@ -22,9 +23,8 @@ Schema field reference
     "model": "currency"
   },
   "number": {
-    "type": "float", // OR Number
-    "defaultsTo": 0,
-    "skipAll": true
+    "type": "float",
+    "defaultsTo": 0
   },
   "list": {
     "type": "string",
@@ -39,8 +39,7 @@ Schema field reference
   "searhModel": {
     "required": true,
     "description": "User who created the resource",
-    "model": 'model',
-    "skipAll": true
+    "model": "model"
   },
   "alsoNotifyViewsTo": {
     "description": "Also notify these users when someone is watching the proposal",
