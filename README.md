@@ -6,7 +6,7 @@ Camel case style. Example:
 - vitrinaDeCierre
 - facturaNombreLead
 
-## Fields Attributes
+## Field Attributes
 - type (string, datetime, longtext, number, float, boolean)
 - enum
 - model 
