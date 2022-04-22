@@ -2,7 +2,6 @@
 Schema field reference
 
 ## Fields Attributes
----
 - type (string, datetime, longtext, number, float)
 - model 
 - defaultsTo
@@ -10,7 +9,6 @@ Schema field reference
 - description
 
 ## Example
----
 ```json
 {
   "text": {
