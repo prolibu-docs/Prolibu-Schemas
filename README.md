@@ -2,7 +2,8 @@
 Schema field reference
 
 ## Field Names
-camelCase example:
+In camel case style 
+Example:
 - vitrinaDeCierre
 - facturaNombreLead
 
