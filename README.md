@@ -13,9 +13,13 @@ Camel case style. Example:
 - defaultsTo
 - required
 - description
+- url
 
 ## Special Types 
 - Enum: lists
+
+## Considerations
+- url attribute: make remote search to custom or external endpoint
 
 ## Example
 ```json
@@ -42,6 +46,12 @@ Camel case style. Example:
       "Approved",
       "Denied"
     ]
+  },
+  "marca": {
+    "type": "string",
+    "scope": "abc0",
+    "label": "Buscar Marca",
+    "url": "https://biotronitech-dev.prolibu.com/v1/CustomObjectBiotronitech/searchProduct"
   },
   "searhModel": {
     "required": true,
