@@ -50,6 +50,7 @@ Camel case style. Example:
   },
   "balanceados": {
     "type": "json",
+    "size": "small",
     "label": "Activos Balanceados",
     "formSchema": {
       "BConservador": {
