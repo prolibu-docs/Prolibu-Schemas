@@ -20,6 +20,7 @@ Camel case style. Example:
 
 ## Considerations
 - url attribute: make remote search to custom or external endpoint
+- formSchema: allow add form in json field
 
 ## Example
 ```json
@@ -46,6 +47,23 @@ Camel case style. Example:
       "Approved",
       "Denied"
     ]
+  },
+  "balanceados": {
+    "type": "json",
+    "formSchema": {
+      "BConservador": {
+        "type": "float",
+         "label": "B.Conservador"
+      },
+      "BModerado": {
+        "type": "float",
+         "label": "B.Moderado"
+      },
+      "BCrecimiento": {
+        "type": "float",
+         "label": "B.Crecimiento"
+      }
+    }
   },
   "marca": {
     "type": "string",
