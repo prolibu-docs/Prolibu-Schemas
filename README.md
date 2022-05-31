@@ -19,6 +19,7 @@ Camel case style. Example:
 - Enum: lists
 
 ## Considerations
+- scope: create secuence in form enable or disable fields
 - url attribute: make remote search to custom or external endpoint
 - formSchema: allow add form in json field
 
@@ -69,7 +70,7 @@ Camel case style. Example:
   },
   "marca": {
     "type": "string",
-    "scope": "abc0",
+    "scope": "myScope-0",
     "label": "Buscar Marca",
     "url": "https://biotronitech-dev.prolibu.com/v1/CustomObjectBiotronitech/searchProduct"
   },
